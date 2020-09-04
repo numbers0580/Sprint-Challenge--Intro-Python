@@ -36,7 +36,7 @@ def cityreader(cities=[]):
   # Ensure that the lat and lon valuse are all floats
   # For each city record, create a new City instance and add it to the 
   # `cities` list
-  with open('/src/cityreader/cities.csv', 'r') as citystate:
+  with open('cities.csv', 'r') as citystate:
     reader = csv.reader(citystate)
 
     # skip the first (Header) row
